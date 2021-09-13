@@ -1,10 +1,10 @@
 <?php
 
-namespace app\models\search;
+namespace backend\models\search;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Prestamo;
+use backend\models\Prestamo;
 
 /**
  * PrestamoSearch represents the model behind the search form of `app\models\Prestamo`.

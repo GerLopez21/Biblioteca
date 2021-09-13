@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use app\models\Prestamo;
-use app\models\search\PrestamoSearch;
+use backend\models\Prestamo;
+use backend\models\search\PrestamoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

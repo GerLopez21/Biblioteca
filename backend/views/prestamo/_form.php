@@ -3,8 +3,10 @@
 use kartik\helpers\Html;    
 use kartik\form\ActiveForm;
 use kartik\builder\Form;
+use kartik\datecontrol\DateControl;
 use backend\models\Libro;
 use backend\models\Socio;
+
 /* @var $this yii\web\View */
 /* @var $model app\models\Prestamo */
 /* @var $form yii\widgets\ActiveForm */
@@ -44,8 +46,8 @@ use backend\models\Socio;
             'fecha_prestamo'=>[
             'label'=>'Desde',
             'type'=>form::INPUT_WIDGET,
-            'widgetClass'=>'\kartik\datecontrol\DateControl::class',
-            'options'=>['type'=>kartik\datecontrol\DateControl::FORMAT_dATE,
+            'widgetClass'=>\kartik\datecontrol\DateControl::class,
+            'options'=>['type'=>kartik\datecontrol\DateControl::FORMAT_DATE,
             'widgetOptions'=>[
                 'pluginOptions'=>[
                     'orientation'=>'bottom',
@@ -58,8 +60,8 @@ use backend\models\Socio;
     'fecha_entrega'=>[
         'label'=>'Desde',
         'type'=>form::INPUT_WIDGET,
-        'widgetClass'=>'\kartik\datecontrol\DateControl::class',
-        'options'=>['type'=>kartik\datecontrol\DateControl::FORMAT_dATE,
+        'widgetClass'=>\kartik\datecontrol\DateControl::class,
+        'options'=>['type'=>kartik\datecontrol\DateControl::FORMAT_DATE,
         'widgetOptions'=>[
             'pluginOptions'=>[
                 'orientation'=>'bottom',
