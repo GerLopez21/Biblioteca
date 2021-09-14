@@ -3,8 +3,8 @@
 namespace backend\controllers;
 
 
-use app\models\Libro;
-use app\models\search\LibroSearch;
+use backend\models\Libro;
+use backend\models\search\LibroSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

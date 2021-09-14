@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use app\models\Socio;
-use app\models\search\SocioSearch;
+use backend\models\Socio;
+use backend\models\search\SocioSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
